@@ -1,0 +1,197 @@
+.account-info{
+    height: auto!important;
+    padding: 0px!important;
+}
+
+.page-container{
+    margin-top: 60px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.auth-container{
+    position: absolute;            
+    top: 50%;                         
+    transform: translate(0, -50%)
+}
+
+.ubuntu-font{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.comfortaa-font{
+    font-family: 'Comfortaa', cursive;
+}
+
+.padding-zero {
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+
+.top-space{
+    margin-top:10px;
+}
+
+.profile-main-image{
+    height: 350px;
+}
+
+.profile-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-Name{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+    color: white!important;
+    margin-right: 10px;
+}
+
+.profile-Name a{
+    padding: 0px;
+}
+
+.header-btn{
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+}
+
+.header-main-btn{
+    font-weight: 600;
+}
+
+.img-container{
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+
+.btn-showing-up{
+    opacity: 0;
+}
+
+.smooth-anim {
+    transition: all 0.2s!important;
+  }
+
+.img-container:hover .btn-showing-up{
+    opacity: 1;
+}
+
+.img-border{
+    border: 5px solid #dee2e6;
+}
+
+.img-source{   
+    width: 100%;
+    border-radius: 50%;
+}
+
+.account-title{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0px;
+    padding-bottom: 0px;   
+}
+
+.account-status{
+    font-family: 'Comfortaa', cursive;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 0.8em;
+}
+
+
+.change-photo{
+    margin-top: 10px!important;
+    width: 100%;
+}
+
+.aboutme-placeholder{
+    height: 150px;
+    overflow: scroll;
+
+}
+
+
+.galerey{
+    height: 200px!important;
+}
+
+
+.gallery div img:hover{
+    cursor: pointer;
+}
+
+.photo{
+    border: white;
+    transition: all 0.2s!important;
+    padding: 1px
+}
+
+.photo:hover{
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.date-post{
+    margin: 0px;
+    text-align: right;
+}
+
+.header-link{
+    text-decoration: none;
+    color: #8995a0;
+    
+    margin-right: 10px;
+}
+
+.header-link:hover{
+    color: #636c75;
+    text-decoration: none;
+}
+
+.header-link-main{
+    color:white;
+    text-decoration: none;
+}
+
+.header-link-main:hover{
+    color: #8995a0;
+    text-decoration: none;
+}
+
+.hei-100{
+    height: 100vh;
+}
+
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.userFriendItem:hover{
+    cursor: pointer;
+    background: aliceblue;
+}
+
+.chat-scroll{
+    transform: rotate(180deg);
+    direction: rtl;
+}
+
+.message{
+    transform: rotate(180deg);
+}
